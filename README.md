@@ -26,3 +26,4 @@ git commit -m "comment"
 git push / git push origin master
 
 git reset index.js - remove from stage
+git diff 
