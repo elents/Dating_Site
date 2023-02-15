@@ -16,7 +16,13 @@ git config user.email "Elena@gmail.com" - changes existing
 # control what we have
 git status  - shows branch name and changes
 git branch -a  - list of all branches local and remote
+git log -n 1 - shows the last commit. If just git log or number > 1 doesn't work properly
+git log --oneline - shows all commits only short ID and comment
 
 # mowing changes to remote
-git add README.md index.js index.html - add files
+git add README.md index.js index.html - add files to stage, prepares to commit
 git add . - add everything changed
+git commit -m "comment"
+git push / git push origin master
+
+git reset index.js - remove from stage
