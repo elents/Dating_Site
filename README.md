@@ -27,4 +27,4 @@ git push / git push origin master
 
 git reset index.js - remove from stage
 git diff - shows changes saved but not staged
-git reset hard - removes all unstaged changes
+git reset --hard - removes all unstaged changes
