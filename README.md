@@ -26,4 +26,5 @@ git commit -m "comment"
 git push / git push origin master
 
 git reset index.js - remove from stage
-git diff 
+git diff - shows changes saved but not staged
+git reset hard - removes all unstaged changes
