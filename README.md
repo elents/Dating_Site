@@ -28,3 +28,12 @@ git push / git push origin master
 git reset index.js - remove from stage
 git diff - shows changes saved but not staged
 git reset --hard - removes all unstaged changes
+
+# working with branches
+git branch -shows branches
+git branch develop - creates branch develop from current
+git checkout develop - switches to branch develop
+git checkout -b new_branch - creates a new branch and switches to it.
+git branch -d develop - remove branch develop
+git merge feature/main-page - merge branch feature/main-page to current branch
+

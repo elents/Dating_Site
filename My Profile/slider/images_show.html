@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Show</title>
+    <link rel="stylesheet" href="images_show.css">
+</head>
+<body>
+    <!-- Container for our gallery -->
+  <div class="container">
+
+
+      <!-- All images with side view -->
+      <div class="side_view">
+          <img src="../images/tumb/Elena_200.jpg" onclick="change(this.src)">
+          <img src="../images/tumb/Elena_01_200.jpg" onclick="change(this.src)">
+          <img src="../images/tumb/Elena_02_200.jpg" onclick="change(this.src)">
+          <img src="../images/tumb/Elena_03_200.jpg" onclick="change(this.src)">
+      </div>
+  </div> 
+  
+  <!-- Main view of our gallery -->
+      <div class="main_view">
+          <img src="../images/tumb/Elena_200.jpg" id="main" alt="IMAGE">
+      </div>
+  <script src="images_show.js"></script>
+
+  <br> <br> <br>
+
+  <p class="one">HOVER OVER ME - IMG IS SIBLING</p>
+<img class="image" src="../images/tumb/Elena_200.jpg"/>
+
+
+<p class="two">HOVER OVER ME -IMG IS CHILD
+   <img class="image" src="../images/tumb/Elena_200.jpg"/>
+</p>
+
+</body>
+</html>

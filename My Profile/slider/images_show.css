@@ -1,0 +1,50 @@
+/*Setting Basic Dimensions to give 
+    gallery view */
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.main_view {
+    position: fixed;
+    top: 30px;
+    left: 200px;
+}
+
+.main_view img {
+    width: 400px;
+    object-fit: cover;
+}
+
+.side_view {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.side_view img {
+    width: 9rem;
+    height: 7rem;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.image {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    display: none
+}
+
+p.one:hover+.image {
+    /*//img is a sibling */
+    display: block;
+}
+
+p.two:hover .image {
+    /* //image is a child */
+    display: block;
+}
